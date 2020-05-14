@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,700&display=swap');
+
+body {
+	position: relative;
+	width: 1920px;
+	height: 1760px;
+
+	background: #FFFFFF;
+}
+
+header {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 0px;
+	background: #333333;
+}
+
+.logo {
+	position: absolute;
+	width: 66px;
+	height: 55.16px;
+	left: 451px;
+	top: 22px;
+}
+
+h1 {
+	position: absolute;
+	width: 500px;
+	height: 111px;
+	left: 537px;
+	top: 175px;
+	font-family: Playfair Display;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.15em;
+}
+
+.content_text {
+	position: absolute;
+	width: 500px;
+	height: 1299px;
+	left: 537px;
+	top: 291px;
+
+	/* text-Review */
+
+	font-family: Playfair Display;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 25px;
+	margin-top: 30px;
+	/* or 179% */
+
+	letter-spacing: 0.05em;
+
+	color: #000000;
+}
+
+.content_img_1 {
+	position: absolute;
+	width: 324px;
+	height: 477px;
+	left: 1057px;
+	top: 195px;
+}
+
+.content_img_2 {
+	position: absolute;
+	width: 324px;
+	height: 459px;
+	left: 1057px;
+	top: 712px;
+}
+
+.content_img_3 {
+	position: absolute;
+	width: 324px;
+	height: 350px;
+	left: 1057px;
+	top: 1211px;
+}
+
+footer {
+	position: absolute;
+	width: 1920px;
+	height: 100px;
+	left: 0px;
+	top: 1656px;
+
+	/* Gray 1 */
+
+	background: #333333;
+}
